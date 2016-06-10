@@ -1,0 +1,6 @@
+
+2016.06.10.2
+- fix for "numeric" sort
+
+2016.06.10
+init, port from Cudatext
