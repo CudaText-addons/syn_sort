@@ -1,6 +1,6 @@
 [info]
 title=Sort
-desc=Allows to sort selected lines, with options
+desc=Commands for lines: sort, reverse, shuffle, find duplicates, find uniques, delete duplicates, delete blanks etc.
 type=py-plugin
 subdir=syn_sort
 
@@ -24,22 +24,90 @@ section=Commands
 id=Sort\Sort, desc., ignore case
 params=sort_desc_nocase
 
-[ini9]
+[ini19]
 section=Commands
 id=Sort\-
 params=_
 
-[ini10]
+[ini20]
+section=Commands
+id=Sort\Sort dialog...
+params=sort_dlg
+
+[ini30]
+section=Commands
+id=Sort\-2
+params=_
+
+[ini31]
+section=Commands
+id=Sort\Reverse lines
+params=reverse
+
+[ini32]
+section=Commands
+id=Sort\Shuffle lines
+params=shuffle
+
+[ini35]
+section=Commands
+id=Sort\-3
+params=_
+
+[ini36]
+section=Commands
+id=Sort\Remove duplicate lines
+params=del_dup
+
+[ini37]
+section=Commands
+id=Sort\Remove duplicate lines + origins
+params=del_dup_orig
+
+[ini38]
+section=Commands
+id=Sort\Remove adjacent duplicate lines
+params=del_dup_adj
+
+
+[ini40]
+section=Commands
+id=Sort\Extract duplicate lines
+params=get_dups
+
+[ini41]
+section=Commands
+id=Sort\Extract duplicate lines, ignore case
+params=get_dups_nocase
+
+[ini42]
+section=Commands
+id=Sort\Extract unique lines
+params=get_uniq
+
+
+[ini50]
+section=Commands
+id=Sort\-4
+params=_
+
+[ini51]
+section=Commands
+id=Sort\Remove blank lines
+params=del_blank
+
+[ini52]
+section=Commands
+id=Sort\Remove adjacent blank lines
+params=del_blank_adj
+
+
+[ini100]
+section=Commands
+id=Sort\-5
+params=_
+
+[ini101]
 section=Commands
 id=Sort\Edit config
 params=config
-
-[ini19]
-section=Commands
-id=Sort\--
-params=_
-
-[ini20]
-section=Commands
-id=Sort\Dialog...
-params=sort_dlg

@@ -1,6 +1,13 @@
 
-2016.06.10.2
-- fix for "numeric" sort
-
-2016.06.10
-init, port from Cudatext
+2016.12.26
++ add cmd: Reverse lines
++ add cmd: Shuffle lines
++ add cmd: Extract dups
++ add cmd: Extract dups, ignore case
++ add cmd: Extract unique
++ add cmd: Remove dups
++ add cmd: Remove dups + origins
++ add cmd: Remove adjacent dups
++ add cmd: Remove blanks
++ add cmd: Remove adjacent blanks
+* rename opt sort_all->allow_all
